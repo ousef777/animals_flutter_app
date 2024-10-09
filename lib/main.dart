@@ -25,9 +25,9 @@ class MainApp extends StatelessWidget {
                 child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Text("Name: Hedgehog"),
-                    Text("Age: 3"),
-                    Text("Gender: Male"),
+                    Text("Name: Hedgehog", style: TextStyle(fontSize: 28.0)),
+                    Text("Age: 3", style: TextStyle(fontSize: 28.0)),
+                    Text("Gender: Male", style: TextStyle(fontSize: 28.0)),
                   ],
                 )
               ),
